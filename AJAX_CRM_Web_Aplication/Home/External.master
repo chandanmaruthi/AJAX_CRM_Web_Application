@@ -1,0 +1,85 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeFile="~/home/External.master.cs"
+    Inherits="External" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <title>CustomerSupport: Get More Leads from your Web Site, Blog</title>
+    <link runat="server" id="lnkCss" rel="stylesheet" type="text/css" />
+    <asp:ContentPlaceHolder runat="server" ID="Header">
+                        </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form2" name="form1" method="post" runat="server">
+    <table align="center" width="1005px;" cellpadding="0" cellspacing="0" border="0" style="background-color:#ffffff;" >
+            <tr>
+                <td style="padding:0px;">
+                    <div class="HeaderContainer">
+                        <div id="TopLinks">
+                            <div class="TopTab">
+                                <a href="<%= CustomerSupport.Utility.SysResource.HomePath %>index.aspx">Home</a>
+                            </div>
+                            <div class="TopTab">
+                                <a href="<%= CustomerSupport.Utility.SysResource.HomePath %>home/Tour.aspx">Tour</a></div>
+                            <div class="TopTab">
+                                <%--|<a
+                            href="<%= CustomerSupport.Utility.SysResource.HomePath %>home/10Reasons.aspx">10 Reasons</a>--%>
+                                <a href="<%= CustomerSupport.Utility.SysResource.HomePath %>home/FAQ.aspx">HelpStation</a></div>
+                            <div class="TopTab">
+                                <a href="<%= CustomerSupport.Utility.SysResource.HomePath %>home/PricingAndPlans.aspx">
+                                    Pricing and Plans</a></div>
+                            <div class="TopTab">
+                                <a href="http://delightdesk.wordpress.com/">Blog</a></div>
+                            <div class="TopTab">
+                                <a href="<%= CustomerSupport.Utility.SysResource.HomePath %>home/CreateAccount.aspx">
+                                    Signup</a>
+                            </div>
+                            <div class="TopTab">
+                                <a href="<%= CustomerSupport.Utility.SysResource.HomePath %>Login.aspx">Login</a>
+                            </div>
+                            <div class="TopTab">
+                                <a href="http://twitter.com/delightdesk" title="Follow delightDeskon Twitter">
+                                    <img src="<%= CustomerSupport.Utility.SysResource.ImagePath %>twitter.gif" style="vertical-align: middle;"
+                                        title="Follow delightDeskon Twitter" border="0" /></a></div>
+                        </div>
+                        
+                        <div id="Logo">
+                            <a href="<%= CustomerSupport.Utility.SysResource.HomePath %>index.aspx">
+                                <img src="<%= CustomerSupport.Utility.SysResource.ImagePath %>Logo_dd_small.gif" border="0"
+                                    style="vertical-align: middle;" />
+                            </a>
+                        </div>
+                    </div>
+                    <div class="ContentContainer" style="text-align:left;">
+                        <asp:ContentPlaceHolder runat="server" ID="ContentBody">
+                        </asp:ContentPlaceHolder>
+                    </div>
+                    <div id="fotter">
+                        <div class="fotter_links" id="fotter_links">
+                            <div align="center">
+                               <ul>
+                               <li> <a href="<%= CustomerSupport.Utility.SysResource.HomePath %>Default.aspx" class="fotterlink">
+                                    Home</a></li>
+                               <li> <a href="<%= CustomerSupport.Utility.SysResource.HomePath %>Home/AboutUs.aspx"
+                                            class="fotterlink">About Us</a></li>
+                               <li><a href="<%= CustomerSupport.Utility.SysResource.HomePath %>Home/Privacy.aspx"
+                                                class="fotterlink">Privacy</a></li>
+                               <li> <a target="_blank" href="<%= CustomerSupport.Utility.SysResource.HomePath %>Home/Blog.aspx"
+                                                    class="fotterlink">Blog</a></li>
+                               <li><a href="<%= CustomerSupport.Utility.SysResource.HomePath %>Home/ContactUs.aspx"
+                                                        class="fotterlink">Contact Us</a></li>
+                               </ul>
+                               </div>
+                        </div>
+                        <div class="fotter_copyrights">
+                            <div align="center">
+                                &copy; Copyright delightDeskPvt Ltd. All Rights Reserved.
+                            </div>
+                        </div>
+                    </div>
+                </td>
+            </tr>      
+    </table>
+    </form>
+</body>
+</html>

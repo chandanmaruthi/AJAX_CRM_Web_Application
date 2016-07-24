@@ -1,0 +1,1450 @@
+body
+{
+    margin: 0;
+    color: #232323;
+    background-color: #F7F7F7;
+    text-align: center;
+    font: normal 11px/1.3em Arial;
+    padding: 0;
+}
+.bag
+{
+    width: 950px;
+}
+div, h1, h2, h3, h4, p, form, label, input, textarea, img, span
+{
+    margin: 2;
+}
+ul
+{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    font-size: 11px;
+    line-height: 1.2em;
+}
+.HeaderContainer
+{
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    float: left;
+    height: 54px;
+    width: 980px;
+    background: #ffffFF; /*     background-image:url('../../common/images/headerbg_dd.gif');     background-repeat:repeat-x;*/
+}
+.HeaderTopContainer
+{
+    height: 30px;
+    width: 980px;
+    float: left;
+}
+.P_HeaderContainer
+{
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    float: left;
+    height: 84px;
+    width: 980px;
+    background: #ffffFF; /*     background-image:url('../../common/images/headerbg_dd.gif');     background-repeat:repeat-x;*/
+}
+.P_HeaderTopContainer
+{
+    height: 60px;
+    width: 980px;
+    float: left;
+}
+
+.ContentContainer
+{
+    padding-top: 5px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    vertical-align: top;
+    float: left;
+    width: 995px;
+}
+#footer
+{
+    width: 100%;
+    font: 11px "Trebuchet MS";
+    color: #cccccc;
+}
+#footer a, a:link, a:visited
+{
+    color: #cccccc;
+}
+.HeaderContents
+{
+    height: 90px;
+    width: 700px;
+    margin-left: 1px;
+    margin-top: 1px;
+}
+.MenuContainer
+{
+    height: 90px;
+    width: 750px;
+    margin-left: 5px;
+    float: left;
+    margin-top: 0;
+}
+.MenuTab
+{
+    height: 17px;
+    width: 96px;
+    float: left;
+    padding: 2px;
+    padding-top: 5px;
+    margin-left: 2px;
+    text-align: center;
+    background: #C3D9FF;
+}
+.MenuTab:Hover
+{
+    color: #444;
+    background: #f5f5f5;
+}
+.MenuTabActive
+{
+    height: 17px;
+    width: 96px;
+    float: left;
+    padding: 2px;
+    padding-top: 5px;
+    margin-left: 2px;
+    text-align: center;
+    color: #000;
+    font-weight: bold;
+    background: #f5f5f5;
+}
+.TableHeader
+{
+    font-weight: bold;
+    height: 20px;
+    background: #D1EAEE;
+}
+.Table_Row
+{
+    padding: 5px;
+}
+.Table_Row:hover
+{
+    border: solid 1px #ccc;
+}
+.Table_Row td
+{
+    border-top: solid 1px #ccc;
+}
+.TableFooter
+{
+    font-weight: bold;
+    height: 20px;
+    background: #5296D0;
+}
+.Grid_Table_Row
+{
+    padding: 1px;
+    line-height: normal;
+}
+.Pager_Container
+{
+    width: 200px;
+    height: 15px;
+    float: right;
+    cursor: pointer;
+    vertical-align: top;
+}
+.Pager
+{
+    width: 12px;
+    height: 12px;
+    padding: 1px;
+    border: solid 1px #404040;
+    float: left;
+    display: block;
+    margin-left: 1px;
+    text-align: center;
+    font-weight: bold;
+    background: White;
+}
+.Pager:hover
+{
+    background: #D1EAEE;
+}
+td
+{
+    padding: 2px;
+    vertical-align: top;
+}
+input
+{
+    border: solid 1px #ccc;
+    font-size: 11px;
+    height: 15px;
+}
+Select
+{
+    border: solid 1px #ccc;
+    font-size: 11px;
+}
+Textarea
+{
+    border: solid 1px #ccc;
+    font-size: 11px;
+}
+.Required
+{   
+    color: Red;
+    font-weight: bold;
+    height:29px;
+    width:4px;
+    background-color:#FF7F7F;
+    float:left;
+}
+.FieldInfo
+{
+    color: #808080;
+    font-size: 11px;
+    padding: 2px;
+    border: solid 1px #eeeeee;
+    line-height: 12px;
+    background: #f5f5f5;
+    float:left;
+    height:23px;
+}
+.HeaderRight
+{
+    width: 810px;
+    height: 45px;
+    float: left;
+}
+.WelcomeBox
+{
+    height: 25px;
+    width: 300px;
+    float: right;
+    color: black;
+    padding-top: 2px;
+    margin-bottom: 5px;
+    text-align: right;
+    font: normal 11px Arial;
+}
+.WelcomeBox a:link
+{
+    color: #000;
+    text-decoration: underline;
+}
+.ContactUsBox
+{
+    width: 214px;
+    height: 25px;
+    padding-left: 10px;
+    vertical-align: middle;
+}
+.SignUpBox
+{
+    height: 22px;
+    width: 550px;
+    margin-left: 5px;
+    float: right;
+    margin-top: 0;
+}
+.HomeNavContainer
+{
+    width: 950px;
+    height: 60px;
+    clear: both;
+}
+.HomeNavTab
+{
+    width: 220px;
+    height: 60px;
+    display: block;
+    float: left;
+    padding: 5px;
+    background-color: White;
+    cursor: pointer;
+    color: #386060;
+    overflow: hidden;
+    background: url(                  '../../common/images/HomeNavTabBg.gif');
+    text-align: center;
+    font: normal 11px Arial;
+}
+.HomeNavTabHover
+{
+    width: 220px;
+    height: 60px;
+    display: block;
+    float: left;
+    border-top: 0;
+    padding: 5px;
+    background-color: White;
+    cursor: pointer;
+    color: #386060;
+    overflow: hidden;
+    background: url(                  '../../common/images/HomeNavTabBgHover.gif');
+    text-align: center;
+    font: normal 11px Arial;
+}
+.HomeNavTab:hover
+{
+    background: url(                  '../../common/images/HomeNavTabBgHover.gif');
+}
+.HomeInfoImage
+{
+    width: 650px;
+    height: 320px;
+    display: block;
+    float: left;
+}
+.PricingBox
+{
+    width: 650px;
+    height: 500px;
+    display: block;
+    float: left;
+}
+.AlertInfo
+{
+    border: solid 2px #efefef;
+    padding: 2px;
+    background: #FFE869;
+}
+.HomeNavTabHead
+{
+    color: #222;
+    text-decoration: none;
+    margin: 0;
+    float: left;
+    width: 220px;
+    font: normal 16px Georgia;
+    padding: 28px 0 15px;
+}
+a, a:link, a:hover, a:visited
+{
+    color: #039;
+    text-decoration: none;
+    font: normal 11px Arial;
+}
+a:hover
+{
+    text-decoration: underline;
+}
+.SectionHeader
+{
+    color: #4C76BA;
+    margin: 0 0 5px;
+    padding: 0;
+    font: normal 18px/1.2em helvetica, arial, sans-serif;
+}
+.SectionText
+{
+    color: #404040;
+    font: normal 15px/1.2em Georgia;
+}
+.SimpleHeader
+{
+    color: #0D83DD;
+    text-decoration: none;
+    margin: 0;
+    float: left;
+    font: bold 12px Arial;
+    padding: 0 0 5px;
+}
+.Message
+{
+    width: 300px;
+    border: solid 1px #404040;
+    color: #404040;
+    text-align: center;
+    padding: 5px;
+    font-weight: bold;
+    background: #DDFF87;
+}
+.FormButton
+{
+    height: 15px;
+    padding: 2px;
+    text-decoration: none;
+    color: #404040;
+    border: solid 1px #ccc;
+    margin: 2px;
+    background: #efefef;
+}
+.FormButton:hover
+{
+    background: #E8F5FF;
+}
+.HomeInfoImage h1
+{
+    color: #4C76BA;
+    margin: 0 0 10px;
+    padding: 0;
+    font: bold 24px/1.2em helvetica, arial, sans-serif;
+}
+.HomeInfoImage h2
+{
+    color: #4C76BA;
+    margin: 0 0 10px;
+    padding: 0;
+    font: normal 18px/1.2em helvetica, arial, sans-serif;
+}
+.HomeInfoImage h3
+{
+    color: #0094FF;
+    margin: 0 0 10px;
+    padding: 0;
+    font: normal 12px/1.2em helvetica, arial, sans-serif;
+}
+.PricingInfoBallonContainer
+{
+    position: absolute;
+    display: none;
+}
+.PricingInfoBallon
+{
+    left: 120px;
+    top: -10px;
+    position: absolute;
+}
+.PricingInfoText
+{
+    border: solid 1px #FC6;
+    width: 150px;
+    padding: 5px;
+    text-align: left;
+    font: 11px;
+    background: #FFC;
+}
+.PricingHighlight
+{
+    color: #C33700;
+    font-weight: bold;
+    font-size: 15px;
+}
+.PlanHeader
+{
+    width: 150px;
+    border: 0;
+    margin-left: 5px;
+    background: #FBFFDD;
+    font: 11px Arial;
+}
+.PlanItems
+{
+    width: 150px;
+    border: 0;
+    margin-left: 5px;
+    border-bottom: solid 0.5px #FFE0A3;
+    background: #FBFFDD;
+    font: 11px Arial;
+}
+.PriceBox
+{
+    width: 150px;
+    height: 285px;
+    border: solid 1px #999;
+    margin-left: 5px;
+    display: block;
+    overflow: hidden;
+    background: #FFF7D6;
+    font: 11px Arial;
+}
+.PriceBox :hover
+{
+    background: #FFF0A8;
+}
+.PriceBoxTD
+{
+    border-bottom: dotted 1px #444;
+}
+.BigInput
+{
+    height: 40px;
+    vertical-align: middle;
+    font: 28px "arial" , helvetica, verdana, sans-serif;
+}
+.BigLabel
+{
+    font-size: 18px;
+}
+.MedInput
+{
+    height: 25px;
+    vertical-align: middle;
+    font: 18px "arial" , helvetica, verdana, sans-serif;
+    float:left;
+}
+.MedLabel
+{
+    font-size: 18px;
+}
+.LeadName
+{
+    color: blue;
+    font-size: 18px;
+}
+.LeadName a
+{
+    text-decoration: none;
+}
+.WidgetListBox
+{
+    width: 130px;
+    height: 32px;
+    display: block;
+    float: left;
+    border: solid 1px #808080;
+    margin: 2px;
+    padding: 2px;
+    background: #efefef;
+}
+.WidgetListBox :hover
+{
+    background: #eee;
+}
+.WidgetListBoxContainer
+{
+    width: 175px;
+    height: 300px;
+    overflow: auto;
+}
+.WidgetQuestionsContainer
+{
+    width: 150px;
+    height: 75px;
+    border: solid 1px #ccc;
+    margin: 2px;
+    background: #F5F5F5;
+}
+.TourSubHeading
+{
+    color: #404040;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font: bold 28px Arial, Times New Roman;
+}
+.HeaderInfoBox
+{
+    width: 100px;
+    height: 20px;
+    padding: 2px;
+    text-align: center;
+    border-right: solid 1px #404040;
+    float: left;
+    background: #eee;
+}
+.HeaderInfoText
+{
+    width: 100px;
+    height: 20px;
+    font-size: 11px;
+    font-weight: normal;
+}
+.HeaderInfoValue
+{
+    font-size: 18px;
+    font-weight: normal;
+}
+.HeaderInfoBox a, a:link, a:visitied
+{
+    font-size: 18px;
+    font-weight: normal;
+}
+#HeaderLinks
+{
+    height: 25px;
+    width: 950px;
+    padding: 0;
+    text-align: center;
+    vertical-align: bottom;
+    overflow: hidden;
+    float: left;
+}
+#HeaderLinks .MenuTab a, a:link, a:visited
+{
+    text-decoration: none;
+    font-size: 12px;
+    color: #404040;
+    font-weight: normal;
+}
+.SubHeaderLinks
+{
+    height: 20px;
+    width: 100%;
+    padding-top: 5px;
+    padding-bottom: 2px;
+    text-align: center;
+    overflow: hidden;
+    float: left;
+    background: #efefef;
+}
+.SmallFormButton
+{
+    height: 15px;
+    width: 100px;
+    padding: 2px;
+    text-decoration: none;
+    color: #404040;
+    margin: 2px;
+    background: url('../../common/images/smallbuttonbg.gif');
+}
+.WaitBox
+{
+    width: 16px;
+    height: 16px;
+    float: left;
+    background: url('../../common/images/mozilla_blu.gif');
+}
+.ExpandLead
+{
+    width: 16px;
+    height: 16px;
+    padding: 2px;
+    float: left;
+    background: url('../../common/images/magnifier_zoom_in.gif') no-repeat;
+}
+.ContractLead
+{
+    width: 16px;
+    height: 16px;
+    float: left;
+    padding: 2px;
+    background: url('../../common/images/magifier_zoom_out.gif') no-repeat;
+}
+#divAddLead
+{
+    height: 148px;
+    width: 760px;
+    padding: 2px;
+    margin: 2px;
+    text-decoration: none;
+}
+.divAddLead
+{
+    height: 148px;
+    width: 760px;
+    padding: 2px;
+    margin: 2px;
+    text-decoration: none;
+    background: url('../../common/images/NewLeadBg.gif') no-repeat;
+}
+.main
+{
+    width: 150px;
+    border: 1px solid white;
+}
+.month
+{
+    font: bold 12px verdana;
+    color: white;
+    background: black;
+}
+.daysofweek
+{
+    font: bold 11px verdana;
+    color: white;
+    background: gray;
+}
+.days
+{
+    color: black;
+    padding: 1px;
+    border: 1px solid white;
+    background: white;
+    font: 11px verdana;
+}
+.days #today
+{
+    font-weight: bold;
+    color: Black;
+    background: Yellow;
+}
+
+.DateRow
+{
+    width: 650px;
+    height: 20px;
+    display: block;
+    float: left;
+    text-align: left;
+    color: #00137F;
+    font: 18px Arial;
+}
+.ActivityRow
+{
+    padding-top: 10px;
+    padding-bottom: 5px;
+    width: 650px;
+    height: 15px;
+    display: block;
+    float: left;
+    text-align: left;
+    color: #404040;
+    font: 11px Arial;
+}
+.CallOutBig
+{
+    width: 766px;
+    height: 78px;
+    padding: 5px;
+    padding-top: 5px;
+    padding-left: 10px;
+    background: url(../../common/images/CalloutFlatWide.gif) no-repeat;
+}
+.SectionHeading
+{
+    color: #00137F;
+    margin-bottom: 10px;
+    margin-top: 5px;
+    font: 20px Arial;
+}
+.SectionHeading_Welcome
+{
+    color: #ccc;
+    margin-bottom: 10px;
+    margin-top: 5px;
+    font: bold 25px Arial;
+}
+.Signout
+{
+    color: White;
+}
+.ActivityRowEdit
+{
+    height: 75px;
+    width: 700px;
+}
+.PageContainer
+{
+    width: 770px;
+    overflow: hidden;
+    border: solid 1px #DCDCDC;
+    margin-bottom: 10px;
+    float: left;
+    background: #fff;
+    font: 11px Arial;
+}
+.PageHeader
+{
+    height: 20px;
+    widows: 760px;
+    padding: 10px;
+    color: #000;
+    margin-bottom: 10px;
+    text-align: left;
+    background: #E0F2FF;
+    font: 18px Arial, garamond;
+}
+.PageContent
+{
+    width: 760px;
+    padding: 5px;
+    float: left;
+}
+.PageSuggestions
+{
+    height: 20px;
+    width: 740px;
+    padding: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: #000;
+    margin-bottom: 5px;
+    margin-top: -5px;
+    background-color: #FFF89F;
+    font: 12px comic sans ms,Arial,Trebuchet MS;
+}
+.LeftContainer
+{
+    width: 195px;
+    float: left;
+}
+.LeftSection
+{
+    display: block;
+    float: left;
+    width: 190px;
+    padding: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+}
+.LeftSectionHeader
+{
+    width: 180px;
+    height: 15px;
+    font-weight: bold;
+    padding: 5px;
+    font-size: 12px;
+    color: #404040;
+    margin-bottom: 10px;
+    background: #E5F4FF;
+}
+.LeftRows
+{
+    width: 190px;
+    height: 20px;
+    border-bottom: dotted 1px #ccc;
+    font: 11px Arial;
+}
+.HelpContainer
+{
+    width: 195px;
+    float: left;
+    padding: 5px;
+}
+.HelpHeader
+{
+    height: 20px;
+    width: 190px;
+    padding: 2px;
+    background: #FFF2B5;
+    font: bold 11px Arial;
+}
+.HelpContent
+{
+    width: 190px;
+    padding: 2px;
+    font: normal 11px/14px Arial;
+}
+.PageFilterContainer
+{
+    width: 150px;
+    float: left;
+    margin-top: -10px;
+}
+.PageFilterBox
+{
+    width: 150px;
+    padding: 5px;
+    float: left;
+}
+.PageFilterHeader
+{
+    width: 180px;
+    height: 20px;
+    color: #404040;
+    text-align: left;
+    float: left;
+    font: normal 11px Arial;
+}
+.PageFilterContent
+{
+    width: 180px;
+    float: left;
+    font: normal 11px Arial;
+}
+.Tab
+{
+    width: 100px;
+    height: 14px;
+    border: solid 1px #404040;
+    padding: 2px;
+    float: left;
+    border-left: 0;
+    text-align: center;
+    background: #ccc;
+    font: 11px Arial;
+}
+.TabActive
+{
+    width: 100px;
+    height: 14px;
+    border: solid 1px #404040;
+    padding: 2px;
+    float: left;
+    border-bottom: solid 1px #fff;
+    text-align: center;
+    background: #fff;
+    font: 11px Arial;
+}
+.Tab:hover
+{
+    background: #eee;
+}
+.TabContent
+{
+    width: 500px;
+    float: left;
+    display: none;
+}
+.TabContentActive
+{
+    width: 500px;
+    float: left;
+    display: block;
+    border: solid 1px #404040;
+    margin-top: -2px;
+}
+.MessageBox
+{
+    height: 15px;
+    width: 95%;
+    padding: 5px;
+    padding-left: 20px;
+    border: solid 1px #9C9;
+    background: #E2F9E3 url('../../common/images/msg_accept.gif') no-repeat;
+    font: bold 12px Arial;
+}
+.MessageBox_Warning
+{
+    height: 15px;
+    width: 95%;
+    padding: 5px;
+    padding-left: 20px;
+    border: solid 1px FFF0AD;
+    background: #FFE470 url('../../common/images/msg_cancel.gif') no-repeat;
+    font: bold 12px Arial;
+}
+.StandardFormButton
+{
+    height: 30px;
+    width: 100px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #000000;
+    border-left: solid 2px #ccc;
+    border-top: solid 2px #ccc;
+    border-right: solid 2px #404040;
+    border-bottom: solid 2px #404040;
+    padding: 3px;
+    text-align: center;
+    background: #D4D0C8;
+}
+.DateBox
+{
+    width: 30px;
+    height: 35px;
+    float: left;
+}
+.MonthPart
+{
+    width: 30px;
+    height: 15px;
+    float: left;
+    padding: 1px;
+    text-align: center;
+    font-weight: bold;
+    color: #fff;
+    font-size: 11px;
+    background: #F00;
+}
+.DatePart
+{
+    width: 30px;
+    height: 20px;
+    float: left;
+    padding: 1px;
+    text-align: center;
+    font-size: 18px;
+    color: #404040;
+    background: #efefef;
+}
+.TimeBox
+{
+    font-size: 18px;
+    font-weight: normal;
+    color: #ccc;
+}
+#PageHeader a
+{
+    text-decoration: underline;
+    padding: 2px;
+}
+#PageHeader a:hover
+{
+    text-decoration: underline;
+    color: #fff;
+    padding: 2px;
+    background: #f00;
+}
+.PageLink
+{
+    padding: 2px;
+    padding-bottom: 0;
+    cursor: pointer;
+}
+.PageLink:hover
+{
+    text-decoration: none;
+    color: #fff;
+    padding: 2px;
+    padding-bottom: 0;
+    background: #f00;
+}
+.PageLink:hover a
+{
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+}
+.PageLink_Active
+{
+    text-decoration: none;
+    color: #fff;
+    padding: 2px;
+    padding-bottom: 0;
+    background: #f00;
+}
+.PageLink_Active a
+{
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+}
+.REPLY
+{
+    width: 90px;
+    height: 20px;
+    color: #fff;
+    text-align: center;
+    font-size: 9px;
+    float: left;
+    background: #C1E2FF;
+}
+.ADD_TASK
+{
+    width: 90px;
+    height: 20px;
+    color: #fff;
+    text-align: center;
+    font-size: 9px;
+    float: left;
+    background: #6893FF;
+}
+.ADD_LEAD
+{
+    width: 90px;
+    height: 20px;
+    color: #fff;
+    text-align: center;
+    font-size: 9px;
+    float: left;
+    background: #FFBFC7;
+}
+.ADD_NOTES
+{
+    width: 90px;
+    height: 20px;
+    color: #fff;
+    text-align: center;
+    font-size: 9px;
+    float: left;
+    background: #A584FF;
+}
+.CHANGE_STATUS
+{
+    width: 90px;
+    height: 20px;
+    color: #fff;
+    text-align: center;
+    font-size: 9px;
+    float: left;
+    background: #FFB86D;
+}
+.LEAD_UPDATED
+{
+    width: 90px;
+    height: 20px;
+    color: #fff;
+    text-align: center;
+    font-size: 9px;
+    float: left;
+    background: #A3ADFF;
+}
+.SettingsMenu
+{
+    height: 30px;
+    float: left;
+}
+.List
+{
+    list-style-image: url("../../common/images/accept.gif");
+    margin-left: 30px;
+}
+H2
+{
+    color: #77ABD4;
+    padding-bottom: 5px;
+    border-bottom: solid 1px #ccc;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font: 15px/1.3em Arial;
+}
+H3
+{
+    color: #77ABD4;
+    padding-bottom: 5px;
+    border-bottom: solid 1px #ccc;
+    margin-bottom: 10px;
+    font: 12px/1.3em Arial;
+}
+#left h3
+{
+    font-size: 12px;
+    font-weight: bold;
+    color: #404040;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+    border-bottom: solid 1px #ccc;
+}
+.LeftMessage
+{
+    color: #4c4c4c;
+    font: bold 11px Arial;
+}
+.TopicHeading
+{
+    color: #004A7F;
+    font-weight: bold;
+    font-size: 15px;
+}
+.QuestionTabOn
+{
+    width: 122px;
+    height: 20px;
+    float: left;
+    vertical-align: bottom;
+    text-align: center;
+    padding-top: 10px;
+    background: url(     '../images/questiontabbg.gif' );
+}
+.QuestionTabOff
+{
+    width: 122px;
+    height: 20px;
+    float: left;
+    text-align: center;
+    padding-top: 10px;
+    background: #fff;
+}
+.QuestionTabOff:hover
+{
+    background: url(     '../images/questiontabbg.gif' );
+}
+.CallOutTopics
+{
+    width: 675px;
+    float: left;
+    padding: 2px;
+}
+.ProfilePicture
+{
+    width: 50px;
+    height: 50px;
+    float: left;
+    background: url('../../common/images/photo_img.gif');
+}
+.PictureBox
+{
+    width: 50px;
+    height: 75px;
+    margin-right: 5px;
+    padding: 2px;
+    float: left;
+}
+.ProfileText
+{
+    width: 50px;
+    height: 20px;
+    float: left;
+    text-align: center;
+}
+.HotTopics
+{
+    width: 750px;
+    float: left;
+    margin: 2px;
+}
+.Highlight
+{
+    width: 70px;
+    height: 20px;
+    color: White;
+    text-align: center;
+    padding: 2px;
+    float: right;
+    background: url(    '../images/HighlightBg.gif' ) no-repeat;
+}
+.HeaderTabs
+{
+    width: 189px;
+    height: 20px;
+    padding: 5px;
+    float: left;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    border-right: solid 1px #ccc;
+    border-bottom: solid 1px #ccc;
+}
+.Logo
+{
+    height: 39px;
+    width: 140px;
+    overflow: hidden;
+    float: left;
+    margin: 5px;
+}
+.HeaderMessage
+{
+    height: 25px;
+    width: 400px;
+    padding: 2px;
+    float: left;
+    font: 18px Arial;
+}
+.HeaderRightBox
+{
+    height: 45px;
+    width: 200px;
+    padding: 2px;
+    float: right;
+}
+.HeaderText
+{
+    float: right;
+    vertical-align: middle;
+    font: 11px Arial;
+}
+.HeaderTabWrapper
+{
+    width: 1000px;
+    height: 40px;
+    margin-top: 5px;
+    float: left;
+    background: #dfd;
+}
+.SearchBar
+{
+    width: 1000px;
+    height: 30px;
+    float: left;
+    padding: 5px;
+    background: #dfd;
+}
+.MedInput
+{
+    height: 25px;
+    vertical-align: middle;
+    font: 18px "arial" , helvetica, verdana, sans-serif;
+}
+.MedLabel
+{
+    font-size: 18px;
+}
+input
+{
+    border: solid 1px #ccc;
+}
+.QBox
+{
+    width: 725px;
+    padding: 10px;
+    background: #fff url('../images/questionbg.gif') no-repeat;
+}
+.BBox
+{
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    background: url('../images/smallbluebg.gif') no-repeat;
+}
+.LeftBox
+{
+    width: 740px;
+    float: left;
+    overflow: hidden;
+}
+.RightBox
+{
+    width: 230px;
+    float: left;
+    overflow: hidden;
+}
+.ConversationContainer
+{
+    width: 745px;
+}
+.ConversationTop
+{
+    width: 745px;
+    height: 16px;
+    float: left;
+    background: url('../../common/images/message_top.gif') no-repeat;
+}
+.ConversationMiddle
+{
+    width: 745px;
+    float: left;
+    background: url('../../common/images/message_middle.gif') repeat-y;
+}
+.ConversationBottom
+{
+    width: 745px;
+    height: 16px;
+    float: left;
+    background: url('../../common/images/message_bottom.gif') no-repeat;
+}
+.ConversationListBox
+{
+    width: 740px;
+    height: 85px;
+    border-bottom: solid 1px #ccc;
+    margin-bottom: 5px;
+    padding: 5px;
+    background: #fff;
+}
+.ConversationListContainer
+{
+    width: 500px;
+    height: 60px;
+    float: left;
+    border-right: solid 0 #ccc;
+}
+.ConversationTitle
+{
+    width: 500px;
+    height: 20px;
+    float: left;
+    border-right: solid 0 #ccc;
+}
+.ShowHideFilter
+{
+    padding: 2px;
+    border: solid 1px #ccc;
+    float: left;
+    width: 170px;
+    margin: 5px;
+    background: #FFF3BA;
+}
+.BigGreyButton
+{
+    width: 115px;
+    height: 23px;
+    padding: 5px;
+    text-align: center;
+    float: left;
+    background: url(../../common/images/biggreybutton.gif) no-repeat;
+}
+
+/*WYSIWYG Editor*/
+
+/* WYSIWYG EDITOR */
+
+/* Toolbar Start */
+.toolbar
+{
+    border: 1px solid #666666;
+    height: 26px;
+    background-color: #EAEBF0;
+}
+
+/* Command Buttons */
+.button
+{
+    width: 20px;
+    height: 20px;
+    border: 0px solid transparent;
+    margin: 1px;
+    padding: 0px;
+    background: transparent;
+}
+.buttonOver
+{
+    width: 20px;
+    height: 20px;
+    border: 1px solid #999999;
+    margin: 0;
+    padding: 0px;
+}
+/* Toolbar End */
+
+/*Rounded Corner*/
+.roundcont
+{
+    float: left;
+}
+
+.roundcont p
+{
+    margin: 0 11px;
+}
+
+.roundtop
+{
+    background: url('../../common/images/tr.gif') no-repeat top right;
+}
+
+.roundbottom
+{
+    background: url('../../common/images/br.gif') no-repeat top right;
+}
+
+img.corner
+{
+    width: 15px;
+    height: 15px;
+    border: none;
+    display: block !important;
+}
+/*End Rounded Corner*/
+
+
+.WebMenuTab
+{
+    height: 17px;
+    float: left;
+    padding: 2px;
+    padding-top: 5px;
+    margin-left: 2px;
+    text-align: center;
+    font-size: 14px;
+}
+.WebMenuTab:Hover
+{
+    color: #444;
+    font-weight: bold;
+    text-decoration: underline;
+}
+.WebMenuTabActive
+{
+    height: 17px;
+    float: left;
+    padding: 2px;
+    padding-top: 5px;
+    margin-left: 2px;
+    text-align: center;
+    color: #000;
+    font-weight: bold;
+}
+.InfoBox
+{
+    width: 600px;
+    height: 30px;
+    background-color: #f5f5f5;
+    border: solid 1px #eeeeee;
+    padding: 5px;
+    font-size: 15px;
+    text-align: center;
+    float:left;
+}
+.CheckOk
+{
+width:100px;
+height:20px;
+padding:3px;
+background-color:#B6FF00;
+
+font-weight:bold;
+}
+.CheckNotOk
+{
+width:100px;
+height:20px;
+padding:3px;
+font-weight:bold;
+background-color:#FF7F7F;
+}

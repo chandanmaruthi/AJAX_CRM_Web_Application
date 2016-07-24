@@ -1,0 +1,65 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeFile="~/manage/Internal.master.cs"
+    Inherits="Internal" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <title>CustomerSupport: Get More Leads from your Web Site, Blog</title>
+    <link runat="server" id="lnkCss" rel="stylesheet" type="text/css" />
+
+    <script type="text/javascript" src="../common/js/ajaxroutine.js"></script>
+
+    <asp:ContentPlaceHolder ID="HeaderInclude" runat="server">
+    </asp:ContentPlaceHolder>
+
+    <script type="text/javascript" language="javascript">
+
+        function SetFocusTextBox(Field, InitValue) {
+            if (document.getElementById(Field).value == InitValue) {
+                document.getElementById(Field).value = "";
+            }
+        }
+        function LoseFocusTextBox(Field, InitValue) {
+            if (document.getElementById(Field).value == "") {
+                document.getElementById(Field).value = InitValue;
+            }
+        }
+
+
+    </script>
+
+</head>
+<body>
+    <form id="form2" name="form1" method="post" runat="server">
+    <table cellpadding="0" cellspacing="0" border="0" width="950px" align="center" class="bag">
+        <tbody style="text-align: left;">
+            <tr>
+                <td style="padding: 0px;">
+                    <asp:ContentPlaceHolder ID="Header" runat="server">
+                    </asp:ContentPlaceHolder>
+                    <div class="ContentContainer">
+                        <asp:ContentPlaceHolder runat="server" ID="ContentBody">
+                        </asp:ContentPlaceHolder>
+                    </div>
+                    <div id="footer">
+                        <div style="float: left; height: 40px;width:110px;">
+                            <img src="<%= CustomerSupport.Utility.SysResource.ImagePath %>Logo_dd_small_footer.gif"
+                                border="0" />
+                        </div>
+                        <div style="float: left; height: 15px; width: 600px;text-align:left;">
+                            <a href="http://delightDesk.com/home/Videos.aspx">Video Tutorials
+                                </a>| <a href="http://delightDesk.delightDesk.com">delightDesk Support</a>
+                        </div>
+                        <div style="float: left; height: 15px; width: 600px;text-align:left ;">
+                          
+                                &copy; Copyright delightDesk All Rights Reserved.
+                          
+                        </div>
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    </form>
+</body>
+</html>
